@@ -4,7 +4,7 @@ BasicUpstart(main)
 * = $0810 "Program"
 #import "print.asm"
 
-helloMsg: .text "8502 ASM EXAMPLES"; brk
+helloMsg: .text "6502 ASM EXAMPLES"; brk
 branchTrueMsg: .text "BRANCH TRUE"; .byte PRINT.CHR_Return; brk
 branchFalseMsg: .text "BRANCH FALSE"; .byte PRINT.CHR_Return; brk
 
